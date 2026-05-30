@@ -2,6 +2,8 @@
 
 An intelligent AI chatbot using **Agentic AI**, **RAG (Retrieval-Augmented Generation)**, and local AI models to answer questions about your professional portfolio.
 
+## 🛫 Deployement Report: https://drive.google.com/file/d/1GZaJ_rxZ3J1Xdx5YehKlmH5wTwT_ek0m/view?usp=sharing
+
 ## ✨ Key Features
 
 - **Agentic AI** - Self-guided AI agent with intelligent decision making
