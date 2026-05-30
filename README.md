@@ -19,7 +19,7 @@ An intelligent AI chatbot using **Agentic AI**, **RAG (Retrieval-Augmented Gener
 This software is provided **"AS IS"** without warranties or conditions of any kind, either express or implied, including but not limited to data privacy or security guarantees.
 
 * **User Responsibility:** The deployment, management of environment credentials, and handling of any user data captured by this application are entirely the responsibility of the individual executing the deployment.
-* **Jurisdiction & Liability:** The repository author holds absolute zero liability, accountability, or fault for any data privacy breaches, unauthorized data routing, financial losses, or legal actions initiated under the **Information Technology Act (IT Act, 2000)** or any other prevailing digital data protection laws of India.
+* **Jurisdiction & Liability:** The repository author (Prakhar Dwivedi) holds absolute zero liability, accountability, or fault for any data privacy breaches, unauthorized data routing, financial losses, or legal actions initiated under the **Information Technology Act (IT Act, 2000)** or any other prevailing digital data protection laws of India.
 * **Consent:** By cloning, configuring, or running this code locally or on cloud servers, you acknowledge these conditions and agree to deploy this system entirely at your own risk.
 
 
