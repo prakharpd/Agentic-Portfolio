@@ -1,6 +1,3 @@
-31/5/26: There is small bug in Github in which Jupyternotbook previews are not visible. So in many of my repos you have to download it to look that file locally.
-
-
 # 🤖 Portfolio Chatbot - Agentic AI System
 
 An intelligent AI chatbot using **Agentic AI**, **RAG (Retrieval-Augmented Generation)**, and local AI models to answer questions about your professional portfolio.
