@@ -1,10 +1,10 @@
-# 🤖 Portfolio Chatbot - Agentic AI System
+#  Portfolio Chatbot - Agentic AI System
 
 An intelligent AI chatbot using **Agentic AI**, **RAG (Retrieval-Augmented Generation)**, and local AI models to answer questions about your professional portfolio.
 
 ---
 
-## ⚠️ IMPORTANT: PRIVACY & DATA ROUTING WARNING
+##  IMPORTANT: PRIVACY & DATA ROUTING WARNING
 
 > **PLEASE READ BEFORE CONFIGURING ENVIRONMENT VARIABLES**
 >
@@ -14,7 +14,7 @@ An intelligent AI chatbot using **Agentic AI**, **RAG (Retrieval-Augmented Gener
 
 ---
 
-### ⚖️ LEGAL DISCLAIMER & LIMITATION OF LIABILITY
+###  LEGAL DISCLAIMER & LIMITATION OF LIABILITY
 
 This software is provided **"AS IS"** without warranties or conditions of any kind, either express or implied, including but not limited to data privacy or security guarantees.
 
@@ -25,13 +25,13 @@ This software is provided **"AS IS"** without warranties or conditions of any ki
 
 ---
 
-## 🛫 Deployment Report
+##  Deployment Report
 
 [View Deployment Report](https://drive.google.com/file/d/1GZaJ_rxZ3J1Xdx5YehKlmH5wTwT_ek0m/view?usp=sharing)
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **Agentic AI** - Self-guided AI agent with intelligent decision making
 * **RAG System** - Smart semantic search through resume
@@ -43,7 +43,7 @@ This software is provided **"AS IS"** without warranties or conditions of any ki
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 * **Zero API Costs** - No cloud service fees (local processing)
 * **24/7 Available** - Always responds, no business hours limitation
@@ -54,7 +54,7 @@ This software is provided **"AS IS"** without warranties or conditions of any ki
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 | Metric            | Value                | Source                                  |
 | ----------------- | -------------------- | --------------------------------------- |
@@ -94,7 +94,7 @@ This software is provided **"AS IS"** without warranties or conditions of any ki
 
 ---
 
-## 🛠️ How Agent Tools Work
+##  How Agent Tools Work
 
 ### Tool 1: `save_user_contact()`
 
@@ -133,7 +133,7 @@ Unanswered question: What are your hobbies?
 
 ---
 
-## 🔍 RAG System - Complete Explanation
+##  RAG System - Complete Explanation
 
 **RAG = Retrieval-Augmented Generation**
 
@@ -169,9 +169,9 @@ Cosine Similarity Search
     ↓
 
 Top Results:
-✅ Skills (95%)
-✅ Experience (87%)
-✅ Projects (75%)
+ Skills (95%)
+ Experience (87%)
+ Projects (75%)
 
     ↓
 Return Top Matches
@@ -198,7 +198,7 @@ Generates Answer Based Only on Resume Data
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 ### Software
 
@@ -221,7 +221,7 @@ agents
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone Repository
 
@@ -283,7 +283,7 @@ Choose:
 
 ---
 
-## 📁 Project Architecture
+##  Project Architecture
 
 ```text
 portfolio-chatbot/
@@ -316,7 +316,7 @@ Response Output
 
 ---
 
-## 🔍 Diagnostic Tool
+##  Diagnostic Tool
 
 Run a health check before starting:
 
@@ -334,7 +334,7 @@ python diagnostic.py
 
 ---
 
-## 🛠️ Optional Configuration
+##  Optional Configuration
 
 Create a `.env` file to enable automated lead notifications:
 
@@ -346,7 +346,7 @@ GMAIL_PASSWORD=your_gmail_app_password
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 ### Resume Files Not Found
 
@@ -372,13 +372,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 👤 Author
+##  Author
 
 **Prakhar Dwivedi**
 
@@ -386,7 +386,7 @@ Created for portfolio demonstration purposes.
 
 ---
 
-## 🚀 Ready to Chat?
+##  Ready to Chat?
 
 ```bash
 python main.py
