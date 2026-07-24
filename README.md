@@ -62,7 +62,7 @@ This software is provided **"AS IS"** without warranties or conditions of any ki
 | RAG Relevance     | ~85-90%              | Based on resume section matching        |
 | Tool Success Rate | 99%+                 | Contact/question saving reliability     |
 | System Uptime     | 99%+                 | No external API dependencies            |
-| Memory Required   | 6-8GB RAM + 3GB VRAM | Model execution requirements            |
+| Memory Required   | 6-8GB RAM + 8GB VRAM | Model execution requirements            |
 | Concurrent Users  | Unlimited            | Local processing, no rate limits        |
 
 ### How Metrics Were Measured
