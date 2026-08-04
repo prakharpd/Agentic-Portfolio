@@ -1,20 +1,3 @@
-# ============================================================================
-# DIAGNOSTIC TOOL - Complete System Health Check
-# IMPORTANT: Run this SEPARATELY from main.py
-# Usage: python diagnostic.py
-# ============================================================================
-
-"""
-Comprehensive diagnostic tool for Portfolio Chatbot
-
-Checks:
-- File structure and resume files
-- Python dependencies
-- Environment variables
-- Ollama service status
-- Backend module loading
-- System health
-"""
 
 import os
 import sys
@@ -23,9 +6,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-# ============================================================================
 # CONFIGURATION
-# ============================================================================
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 resume_dir = os.path.join(script_dir, "resume")
@@ -50,9 +31,9 @@ required_packages = {
     "requests": "requests",
 }
 
-# ============================================================================
+# 
 # COLOR CODES
-# ============================================================================
+# 
 
 class Colors:
     HEADER = '\033[95m'
@@ -93,9 +74,9 @@ def print_info(text):
     print(f"{Colors.BLUE}ℹ️  {text}{Colors.END}")
 
 
-# ============================================================================
+# 
 # 1. FILE STRUCTURE CHECK
-# ============================================================================
+# 
 
 def check_file_structure():
     """Check if all required files and directories exist"""
@@ -151,9 +132,9 @@ def check_file_structure():
     return all_good
 
 
-# ============================================================================
+# 
 # 2. PYTHON DEPENDENCIES CHECK
-# ============================================================================
+# 
 
 def check_dependencies():
     """Check if all required Python packages are installed"""
@@ -184,9 +165,8 @@ def check_dependencies():
     return all_good
 
 
-# ============================================================================
 # 3. ENVIRONMENT VARIABLES CHECK
-# ============================================================================
+# 
 
 def check_environment_variables():
     """Check if required environment variables are set"""
@@ -224,9 +204,9 @@ def check_environment_variables():
             print_info(f"{var} not set (will use default)")
 
 
-# ============================================================================
+# 
 # 4. OLLAMA SERVICE CHECK
-# ============================================================================
+# 
 
 def check_ollama_service():
     """Check if Ollama service is running"""
@@ -274,9 +254,9 @@ def check_ollama_service():
         print_error(f"Error checking Ollama: {str(e)}")
 
 
-# ============================================================================
+# 
 # 5. BACKEND MODULE LOADING TEST
-# ============================================================================
+# 
 
 def check_backend_loading():
     """Test if backend module can be loaded without errors"""
@@ -318,9 +298,9 @@ def check_backend_loading():
         print_error(f"Error loading backend: {str(e)}")
 
 
-# ============================================================================
+# 
 # 6. SYSTEM HEALTH CHECK
-# ============================================================================
+# 
 
 def check_system_health():
     """Overall system health check"""
@@ -361,9 +341,9 @@ def check_system_health():
         print(f"{Colors.RED}{Colors.BOLD}⚠️  Some checks failed. See details above.{Colors.END}\n")
 
 
-# ============================================================================
+# 
 # MAIN ENTRY POINT
-# ============================================================================
+# 
 
 def main():
     """Main diagnostic function"""
