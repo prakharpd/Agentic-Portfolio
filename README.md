@@ -360,7 +360,7 @@ mkdir resume
 ```bash
 ollama serve
 ollama list
-ollama pull gpt-oss:120b-cloud
+ollama pull gemma4:e2b
 ```
 
 ### Dependency Errors
